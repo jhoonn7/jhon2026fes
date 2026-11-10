@@ -12,12 +12,12 @@
 nombre_a = 8
 nombre_b = 5
 
-if nombre_a > nombre_b:
-    print("nombre_a és més gran que nombre_b")
-if nombre_a < nombre_b:
-    print("Nombre_b es més petit que nombre_b")
-else:
-    print("Son iguals")
+print(f"{nombre_a}> {nombre_b}:{nombre_a>nombre_b}")
+print(f"{nombre_a} = {nombre_b}:{nombre_a = nombre_b}")
+print(f"{nombre_a}<{nombre_b}: {nombre_a < nombre_b}")
+
+
+
 
 # Exercici 2: Comparar cadenes de text
 # Donades les cadenes:
